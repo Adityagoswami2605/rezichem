@@ -18,7 +18,7 @@ define('CONTENTTYPE','<meta http-equiv="content-type" content="text/html; charse
 
 //define('SITEURL','http://192.168.1.24/dinesh/shakti/');
 
-define('SITEURL','http://rezichem.com/');
+define('SITEURL','http://rezichem.co.in/');
 
 define('ADMINURL',SITEURL.'adminpanel/');
 

@@ -67,13 +67,13 @@ $product_tab_active = strpos($_SERVER['REQUEST_URI'],'our-products') > 0 ? 'clas
 			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 			  <ul class="nav navbar-nav">
 				<li <?=$index_tab_active?>><a href="<?=SITEURL?>index.php">Home <span class="sr-only">(current)</span></a></li>
-				<li <?=$about_tab_active?>><a href="<?=SITEURL?>about">About Us</a></li>
-				<li <?=$product_tab_active?>><a href="<?=SITEURL?>our-products">Products </a></li>
-				<li <?=$download_tab_active?>><a href="<?=SITEURL?>download">Download</a></li>
-				<li <?=$events_tab_active?>><a href="<?=SITEURL?>events">Events & Updates</a></li>
-				<li <?=$client_tab_active?>><a href="<?=SITEURL?>our-clients">Our Clients</a></li>
-                <li <?=$certificates_tab_active?>><a href="<?=SITEURL?>certificates">Awards & Certificates</a></li>
-                <li <?=$contact_tab_active?>><a href="<?=SITEURL?>contact-us">Contact Us & Inquiry</a></li>
+				<li <?=$about_tab_active?>><a href="<?=SITEURL?>about.php">About Us</a></li>
+				<li <?=$product_tab_active?>><a href="<?=SITEURL?>products.php">Products </a></li>
+				<li <?=$download_tab_active?>><a href="<?=SITEURL?>download.php">Download</a></li>
+				<li <?=$events_tab_active?>><a href="<?=SITEURL?>events.php">Events & Updates</a></li>
+				<li <?=$client_tab_active?>><a href="<?=SITEURL?>clients.php">Our Clients</a></li>
+                <li <?=$certificates_tab_active?>><a href="<?=SITEURL?>certificates.php">Awards & Certificates</a></li>
+                <li <?=$contact_tab_active?>><a href="<?=SITEURL?>contact.php">Contact Us & Inquiry</a></li>
 			  </ul>
 				
 			  <div class="clearfix"> </div>
